@@ -6,6 +6,5 @@ MAINTAINER litaotao@haodf.com
 
 
 RUN wget https://github.com/goharbor/harbor/releases/download/v1.9.4/harbor-offline-installer-v1.9.4.tgz && \
-    tar zxf harbor-offline-installer-v1.9.4.tgz
 
-CMD [ "sleep", "360000000" ]
+
